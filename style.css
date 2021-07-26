@@ -1,0 +1,130 @@
+body{
+    font-family: 'Rubik', sans-serif!important;
+    margin: 0;
+    padding: 0;
+}
+.consult{
+    font-size: 30px!important;
+    font-weight: 700;
+}
+.heading h5{
+    color: #50C594;
+}
+.heading h1{
+    font-size: 60px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.heading span{
+    color: #F14836;
+}
+.heading p{
+    font-size: 20px;
+    color: gray;
+}
+.second-title{
+    color: #50C594;
+    position: relative;
+    padding-left: 60px;
+}
+.second-title::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    background: #50c594;
+    height: 1px;
+    margin: auto 0;
+}
+.icon{
+    color: #F14836;
+    font-size:30px;
+    padding: 20px 0;
+}
+.award{
+    color: #FE9749;
+    padding-right: 10px;
+}
+.third-title{
+    color: #50C594;
+    position: relative;
+    padding-left: 60px;
+}
+.third-title::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 470px;
+    bottom: 0;
+    width: 50px;
+    background: #50c594;
+    height: 1px;
+    margin: auto 0;
+}
+.card-icon{
+    font-size: 25px;
+    padding: 20px 18px;
+    border: 1px solid #4B4B5A;
+    color: white;
+    background-color: #4B4B5A;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.cardhover:hover{
+    box-shadow: 0px 0px 8px 0px #dad2d2;
+}
+.read-more{
+    visibility: hidden;
+}
+.cardhover:hover .read-more{
+    visibility: visible;
+}
+.fa-arrow-right{
+    font-size: 13px;
+    padding-left: 3px;
+}
+.input{
+    
+    margin-top: 20px;
+    padding: 18px 40px;
+    width: 300px;
+    border: none;
+    outline: none;
+}
+.subscribe{
+    position: absolute;
+    left: 210px;
+    bottom: 157px;
+    
+}
+.email{
+    position: absolute;
+    bottom: 149px;
+    left: 35px;
+    font-size: 15px;
+    color: gray;
+}
+.faq{
+    color: #50C594;
+    position: relative;
+    padding-left: 60px;
+}
+.faq::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    background: #50c594;
+    height: 1px;
+    margin: auto 0;
+}
+.last-section{
+    background-color: #00283B;
+}
+.hrlast{
+    color: gray;
+}
