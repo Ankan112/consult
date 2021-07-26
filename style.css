@@ -51,26 +51,6 @@ body{
     top: -50px;
     right: -15px;
 }
-@media screen and (max-width: 680px){
-    header{
-        display: none;
-        
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .award{
     color: #FE9749;
     padding-right: 10px;
@@ -155,4 +135,63 @@ body{
 }
 .hrlast{
     color: gray;
+}
+@media screen and (max-width: 680px){
+    header{
+        display: none;
+    }
+    .phone img{
+        float: none!important;
+        width: 100%!important;
+    }
+    .third-title::after{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 80px!important;
+        bottom: 0;
+        width: 50px;
+        background: #50c594;
+        height: 1px;
+        margin: auto 0;
+    }
+    .subscribe{
+        position: absolute;
+        left: 210px;
+        bottom: 11px!important;
+        
+    }
+    .email{
+        position: absolute;
+        bottom: 3px;
+        left: 35px;
+        font-size: 15px;
+        color: gray;
+    }
+}
+@media only screen and (min-width: 681px) and (max-width: 990px){
+    header{
+        display: none;
+    }
+    .phone img{
+        float: none!important;
+        width: 100%!important;
+    }
+    .subscribe{
+        position: absolute;
+        left: 210px;
+        bottom: 27px!important;
+        
+    }
+    .email{
+        position: absolute;
+        bottom: 19px;
+        left: 35px;
+        font-size: 15px;
+        color: gray;
+    }
+    .third-title::after {
+        left: 260px;
+        top: 1px;
+    }
 }
